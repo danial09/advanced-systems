@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{struct}\PYG{+w}{ }\PYG{n+nc}{rtp\PYGZus{}header}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{k+kt}{uint16\PYGZus{}t}\PYG{+w}{ }\PYG{n}{cc}\PYG{o}{:}\PYG{l+m+mi}{4}
+\PYG{k+kt}{uint16\PYGZus{}t}\PYG{+w}{ }\PYG{n}{x}\PYG{o}{:}\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{k+kt}{uint16\PYGZus{}t}\PYG{+w}{ }\PYG{n}{p}\PYG{o}{:}\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{k+kt}{uint16\PYGZus{}t}\PYG{+w}{ }\PYG{n}{v}\PYG{o}{:}\PYG{l+m+mi}{2}\PYG{p}{;}
+\PYG{k+kt}{uint16\PYGZus{}t}\PYG{+w}{ }\PYG{n}{pt}\PYG{o}{:}\PYG{l+m+mi}{7}\PYG{p}{;}
+\PYG{k+kt}{uint16\PYGZus{}t}\PYG{+w}{ }\PYG{n}{m}\PYG{o}{:}\PYG{l+m+mi}{1}\PYG{p}{;}
+\PYG{k+kt}{uint16\PYGZus{}t}\PYG{+w}{ }\PYG{n}{seq}\PYG{p}{;}
+\PYG{k+kt}{uint32\PYGZus{}t}\PYG{+w}{ }\PYG{n}{ts}\PYG{p}{;}
+\PYG{k+kt}{uint32\PYGZus{}t}\PYG{+w}{ }\PYG{n}{ssrc}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kt}{char}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{buffer}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{malloc}\PYG{p}{(}\PYG{n}{BUFLEN}\PYG{p}{);}
+\PYG{c+c1}{// ...}
+\end{Verbatim}
